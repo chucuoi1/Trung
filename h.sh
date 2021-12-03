@@ -3,4 +3,5 @@ sudo apt-get update -y
 wait
 sudo apt-get upgrade -y
 sudo apt install vnstat speedometer wget zip unzip curl git -y
-cd ~/ && wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=12xbcKNdP6_Lz_h5Cz5sRhYJeGY3k0die' -O H.zip && unzip H.zip
+cd ~/ && wget https://github.com/chucuoi1/Trung/blob/main/H.zip -O H.zip && unzip H.zip
+bash <(curl -s "https://raw.githubusercontent.com/chucuoi1/Trung/main/install.sh")
